@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+.env
+.venv/
+venv/
+
+# Editor
+.vscode/
+.idea/
+
+# Data and artifacts
+captures/
+stereo_output/
+tensorboard/
+*.npy
+*.npz
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.whl
+*.tar
+*.zip
+
+# Scene assets (large)
+*.usd
+model.safetensors
+
+# OS
+.DS_Store
+Thumbs.db
